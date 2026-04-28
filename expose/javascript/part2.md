@@ -3,27 +3,19 @@
 ## Q1
 Line 12 prints `3`.
 
-`i` is declared with `var`, so it is function-scoped (not block-scoped). After the loop finishes, `i` has value `3` (`prices.length`).
-
 ## Q2
 Line 13 prints `150`.
-
-`discountedPrice` is declared with `var`, so it is also function-scoped and still accessible after the loop. Its final assigned value is from the last iteration: `300 * 0.5 = 150`.
 
 ## Q3
 Line 14 prints `150`.
 
-`finalPrice` is declared in the function scope (`var finalPrice = 0`) and updated each loop iteration. After the last iteration, it is `150`.
-
 ## Q4
 The function returns `[50, 100, 150]`.
-
-Each item in `prices` is multiplied by `(1 - 0.5)` and rounded to 2 decimals, then pushed into `discounted`.
 
 ## Q5
 Line 12 throws `ReferenceError: i is not defined`.
 
-Here `i` is declared with `let` in the `for` loop, so it is block-scoped to that loop and cannot be accessed outside it.
+`i` is declared with `let` in the `for` loop, so it is block-scoped to that loop and cannot be accessed outside it.
 
 ## Q6
 Line 13 throws `ReferenceError: discountedPrice is not defined`.
@@ -33,12 +25,8 @@ Line 13 throws `ReferenceError: discountedPrice is not defined`.
 ## Q7
 Line 14 prints `150`.
 
-`finalPrice` is declared with `let` in the function body (outside the loop block), so it is accessible at line 14 and holds the last computed value.
-
 ## Q8
 The function returns `[50, 100, 150]`.
-
-No error occurs because the out-of-scope `console.log` lines are commented out, and the return value is the built `discounted` array.
 
 ## Q9
 Line 11 throws `ReferenceError: i is not defined`.
@@ -48,12 +36,8 @@ Line 11 throws `ReferenceError: i is not defined`.
 ## Q10
 Line 12 prints `3`.
 
-`length` is declared as `const length = prices.length` in function scope, so it is accessible at line 12 and equals `3`.
-
 ## Q11
 The function returns `[50, 100, 150]`.
-
-`discounted` is a `const` array, which means the variable binding cannot be reassigned, but the array contents can still be modified with `push`.
 
 ## Q12
 A. `student.name`
@@ -111,8 +95,8 @@ F. `true === Boolean(2)` -> `true`
 `Boolean(2)` is `true`, and both sides are boolean `true`.
 
 ## Q15
-`==` checks loose equality and allows type coercion before comparison.  
-`===` checks strict equality and does not coerce types, so both type and value must match.
+`==` checks loose equality and allows type conversion before comparison.  
+`===` checks strict equality and does not convert types, so both type and value must match.
 
 ## Q17
 `modifyArray([1,2,3], doSomething)` returns `[2,4,6]`.

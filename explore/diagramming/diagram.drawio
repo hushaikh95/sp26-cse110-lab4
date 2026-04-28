@@ -1,0 +1,146 @@
+<mxfile host="app.diagrams.net" modified="2026-04-28T14:42:00.000Z" agent="Codex" version="24.7.7">
+  <diagram id="retail-flow" name="Page-1">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="1400" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <mxCell id="start" value="Enter Website" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="120" width="140" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="browse_or_search" value="Search for product?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="110" width="180" height="80" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="search_input" value="Provide Search Input" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="40" width="190" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="browse_home" value="Explore Home Page Products" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="170" width="210" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="look_over" value="Look Over Products" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="110" width="170" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="view_specific" value="View specific product?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="100" width="190" height="80" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="product_page" value="Open Product Webpage" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="40" width="190" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="add_to_cart_q" value="Add item to cart?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="140" width="180" height="80" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="added_confirm" value="Added to Cart Confirmation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="70" width="210" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="continue_shop" value="Continue shopping?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="210" width="190" height="80" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="checkout_q" value="Checkout?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1800" y="210" width="150" height="80" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="exit_no_checkout" value="Leave Website" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2040" y="330" width="150" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="view_cart" value="View Cart Screen" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2040" y="200" width="170" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="view_payment" value="View Payment Screen" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2260" y="200" width="180" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="payment_input" value="Enter Payment Information" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2490" y="200" width="210" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="order_confirm" value="Order Confirmation Screen" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2740" y="150" width="210" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="email_sent" value="Confirmation Email Sent" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="2740" y="250" width="210" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="exit_after_order" value="Leave Website" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3000" y="170" width="150" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e1" value="" style="endArrow=block;html=1;" edge="1" parent="1" source="start" target="browse_or_search">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e2" value="Yes" style="endArrow=block;html=1;" edge="1" parent="1" source="browse_or_search" target="search_input">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e3" value="No" style="endArrow=block;html=1;" edge="1" parent="1" source="browse_or_search" target="browse_home">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e4" value="" style="endArrow=block;html=1;" edge="1" parent="1" source="search_input" target="look_over">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e5" value="" style="endArrow=block;html=1;" edge="1" parent="1" source="browse_home" target="look_over">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e6" value="" style="endArrow=block;html=1;" edge="1" parent="1" source="look_over" target="view_specific">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e7" value="Yes" style="endArrow=block;html=1;" edge="1" parent="1" source="view_specific" target="product_page">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e8" value="No" style="endArrow=block;html=1;" edge="1" parent="1" source="view_specific" target="continue_shop">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e9" value="" style="endArrow=block;html=1;" edge="1" parent="1" source="product_page" target="add_to_cart_q">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e10" value="Yes" style="endArrow=block;html=1;" edge="1" parent="1" source="add_to_cart_q" target="added_confirm">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e11" value="No" style="endArrow=block;html=1;" edge="1" parent="1" source="add_to_cart_q" target="continue_shop">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e12" value="" style="endArrow=block;html=1;" edge="1" parent="1" source="added_confirm" target="continue_shop">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e13" value="Yes" style="endArrow=block;html=1;" edge="1" parent="1" source="continue_shop" target="browse_or_search">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e14" value="No" style="endArrow=block;html=1;" edge="1" parent="1" source="continue_shop" target="checkout_q">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e15" value="No" style="endArrow=block;html=1;" edge="1" parent="1" source="checkout_q" target="exit_no_checkout">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e16" value="Yes" style="endArrow=block;html=1;" edge="1" parent="1" source="checkout_q" target="view_cart">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e17" value="" style="endArrow=block;html=1;" edge="1" parent="1" source="view_cart" target="view_payment">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e18" value="" style="endArrow=block;html=1;" edge="1" parent="1" source="view_payment" target="payment_input">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e19" value="" style="endArrow=block;html=1;" edge="1" parent="1" source="payment_input" target="order_confirm">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e20" value="" style="endArrow=block;html=1;" edge="1" parent="1" source="payment_input" target="email_sent">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e21" value="" style="endArrow=block;html=1;" edge="1" parent="1" source="order_confirm" target="exit_after_order">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
